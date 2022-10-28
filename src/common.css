@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: auto;
+}
+.align-center {
+    text-align: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    text-transform: uppercase;
+}
+li{
+    list-style: none;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-evently{
+    justify-content: space-evenly;
+}
+
+.p-6 {
+    padding: 6rem 0;
+}
+.btn {
+    padding: 1rem 1.6rem;
+    border-radius: 2rem;
+    outline: none;
+    border: 1px solid black;
+}
+.btn:nth-child(1){
+    padding: .5rem 1rem !important;
+}
+.btn-primary {
+    background-color: black;
+    color: white;
+}
+.btn-secondary {
+    background-color: rgb(53, 48, 48);
+    color: white;
+}
+.btn-danger {
+    background-color: rgb(240, 8, 8);
+    color: white;
+    border: none;
+}
+.btn-transparent {
+    background-color: white;
+    color: rgb(107, 99, 99);
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+    
+}
+.mb-2{
+    margin-bottom: 2.5rem;
+}
+.lh-2 {
+    line-height: 1.6;
+    letter-spacing: .05rem;
+}
+.w-60{
+    width: 60%;
+    margin: 0 auto
+}
+.bg-black{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.robotics{
+    width: 80%;
+    margin: 0 auto;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.mt-1 {
+    margin-top: 1rem;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.fw {
+    font-weight: 400;
+}
+.fs-30{
+    font-size: 30px;
+}
+.mt-4{
+    margin-top: 4rem;
+}
